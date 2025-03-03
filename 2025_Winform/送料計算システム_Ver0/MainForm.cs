@@ -97,7 +97,7 @@ namespace 送料計算システム_First
             }
 
             // 結果ダイアログに必要な情報を渡して表示
-            ResultForm resultForm = new ResultForm(resultSize, lengthSize, weightSize, price);
+            ResultForm resultForm = new ResultForm(resultSize, price);
             resultForm.ShowDialog();
         }
     }
